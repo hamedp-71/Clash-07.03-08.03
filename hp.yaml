@@ -33,19 +33,19 @@ dns:
     - 112.215.203.254
 proxies:
   - name: "VLESS - Domain 1 : 443"
-    server: bpb-worker-panel1-e4p.pages.dev
+    server: bpb-worker-panel0-e4p.pages.dev
     port: 443
     type: vless
     uuid: 4045e84e-5e3c-4f70-8ff5-c1097882a55a
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: bPb-workER-panel1-e4p.paGES.DEv
+    servername: bPb-workER-panel0-e4p.paGES.DEv
     network: ws
     ws-opts:
       path: /vfs9PAJTXmhQHgUm/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==
       headers:
-        Host: bpb-worker-panel1-e4p.pages.dev
+        Host: bpb-worker-panel0-e4p.pages.dev
     udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
